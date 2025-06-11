@@ -1,0 +1,111 @@
+{
+	// GENERAL
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.minimap.enabled": false,
+	"editor.hover.enabled": true,
+  "editor.hover.delay": 300,
+  "eslint.quiet": true,
+  "git.confirmSync": false,
+  "workbench.startupEditor": "none",
+  "files.autoSave": "afterDelay",
+  "redhat.telemetry.enabled": true,
+	"update.showReleaseNotes": false,
+	"workbench.editor.empty.hint": "hidden",
+  "workbench.iconTheme": "bearded-icons",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+	//JS AND TS
+  "typescript.suggest.autoImports": true,
+	"javascript.suggest.autoImports": true,
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "html-css-class-completion.enableEmmetSupport": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "html-css-class-completion.JavaScriptLanguages": [
+    "javascript",
+    "typescript",
+    "html",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "emmet.includeLanguages": {
+    "javascript": "html",
+    "javascriptreact": "html",
+    "typescriptreact": "html"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+    // Mostrar sugestões de módulos
+    "typescript.preferences.includePackageJsonAutoImports": "auto",
+    "javascript.preferences.includePackageJsonAutoImports": "auto",
+
+    // Inserir automaticamente ao digitar
+    "editor.suggestOnTriggerCharacters": true,
+
+
+  //CODE FORMATTER
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // COLORS
+  "workbench.colorTheme": "Monokai",
+  "workbench.colorCustomizations": {
+    "editor.background": "#1d1d20", // fundo do editor
+    "sideBar.background": "#1d1d20", // barra lateral
+    "activityBar.background": "#30204e", // barra esquerda
+    "statusBar.background": "#30204e", // barra inferior
+    "titleBar.activeBackground": "#30204e", // barra superior
+    "editorCursor.foreground": "#ffcc00", // cor do cursor
+    "editorLineNumber.foreground": "#5c6370", // numeração
+    "editorLineNumber.activeForeground": "#ffffff"
+  },
+
+	//FONTS
+  "editor.fontFamily": "Fira Code, Consolas, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorBlinking": "smooth",
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
+
+  //PRETTIER
+  "prettier.requireConfig": true,
+  "prettier.resolveGlobalModules": true,
+  "prettier.useTabs": true,
+  "editor.gotoLocation.multipleDefinitions": "gotoAndPeek",
+  "editor.gotoLocation.multipleTypeDefinitions": "gotoAndPeek",
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.showOnInterfaceMethods": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "prettier.printWidth": 140,
+  "editor.formatOnSave": true,
+}
