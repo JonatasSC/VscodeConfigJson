@@ -108,4 +108,40 @@
   "typescript.referencesCodeLens.enabled": true,
   "prettier.printWidth": 140,
   "editor.formatOnSave": true,
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
 }
+
+/*
+   -- SNIPET FOR VSCODE --
+
+    Ctrl+Shift+P > "Preferences: Configure User Snippets"
+    Select "New Global Snippets File"
+    Add:
+*/
+
+//  "jsconfig": {
+// 		"prefix": "jsconfig",
+// 		"body": [
+// 			"{\n  \"compilerOptions\": {\n    \"module\": \"commonjs\",\n    \"target\": \"es2020\",\n    \"baseUrl\": \"./\",\n    \"checkJs\": true\n  },\n  \"include\": [\"**/*.js\"]\n}"
+// 		]
+// 	}
+
+// Prettierrc
+
+// "Prettier Config": {
+//   "prefix": "prettierrc",
+//   "body": [
+//     "{",
+//     "  \"printWidth\": 120,",
+//     "  \"singleQuote\": true,",
+//     "  \"trailingComma\": \"all\",",
+//     "  \"arrowParens\": \"avoid\",",
+//     "  \"bracketSameLine\": false,",
+//     "  \"endOfLine\": \"auto\",",
+//     "  \"proseWrap\": \"always\"",
+//     "}"
+//   ],
+//   "description": "Cria configuração padrão do Prettier"
+// }
