@@ -122,11 +122,14 @@
 */
 
 //  "jsconfig": {
-// 		"prefix": "jsconfig",
-// 		"body": [
-// 			"{\n  \"compilerOptions\": {\n    \"module\": \"commonjs\",\n    \"target\": \"es2020\",\n    \"baseUrl\": \"./\",\n    \"checkJs\": true\n  },\n  \"include\": [\"**/*.js\"]\n}"
-// 		]
-// 	}
+// 	"compilerOptions": {
+// 		"module": "commonjs",
+// 		"target": "es2020",
+// 		"checkJs": true
+// 	},
+// 	"include": ["**/*.js"]
+// }
+
 
 // Prettierrc
 
